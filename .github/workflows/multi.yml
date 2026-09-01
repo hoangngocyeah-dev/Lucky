@@ -62,7 +62,7 @@ jobs:
 
     steps:
       - name: Clone repo
-        run: git clone https://github.com/hoangngocyeah-dev source
+        run: git clone https://github.com/hoangngocyeah-dev/Lucky source
 
       - name: Run worker
         working-directory: source
