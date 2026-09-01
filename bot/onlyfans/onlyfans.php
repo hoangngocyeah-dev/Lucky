@@ -137,8 +137,8 @@ return (new class {
                     
                     $ret99 = 0;
                     while (true) {
-                        if ($claimed >= 10) {
-                            styler("waiting for next minute", fn() => _sle(60));
+                        if ($claimed >= 9) {
+                            styler("waiting for next minute", fn() => _sle(12));
                             $claimed = 0;
                         }
                         $ret99++;
